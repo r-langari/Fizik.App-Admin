@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'IranSans';
+  src: local('IranSans'), url(woff2/IRANSansWeb.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IranSans_Bold';
+  src: local('IranSans'), url(woff2/IRANSansWeb_Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IranSans_Light';
+  src: local('IranSans'), url(woff2/IRANSansWeb_Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IranSans_Medium';
+  src: local('IranSans'), url(woff2/IRANSansWeb_Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IranSans_UltraLight';
+  src: local('IranSans'), url(woff2/IRANSansWeb_UltraLight.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Far_Kamran';
+  src: local('Far_Kamran'), url(woff2/Far_Kamran.woff) format('woff');
+}
