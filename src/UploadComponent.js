@@ -65,7 +65,7 @@ export default class UploadComponent extends React.Component {
   }
 
   render() {
-    let uploadUrl = `https://admin.fizik.app/ffmpeg-20200604-7f81785-win64-static/ffmpeg-20200604-7f81785-win64-static/bin/upload.php?model=${this.props.model}&type=${this.props.type}&filename=${this.state.fileName}`
+    let uploadUrl = `https://admin.fizik.app/public/ffmpeg-20200604-7f81785-win64-static/ffmpeg-20200604-7f81785-win64-static/bin/upload.php?model=${this.props.model}&type=${this.props.type}&filename=${this.state.fileName}`
     return (
       <React.Fragment>
         <div>{this.props.showtext}</div>

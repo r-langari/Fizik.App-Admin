@@ -172,7 +172,6 @@ export const ProductEdit = (props) => (
   <Edit title="Product edit" {...props}>
     <SimpleForm>
       <TextInput source="data.summary.name" label="name" />
-
       <TextInput source="data.summary.title" label="title" />
       <TextInput source="data.summary.titletag" label="title tag" />
       <LongTextInput
@@ -197,6 +196,13 @@ export const ProductEdit = (props) => (
         label="duration in seconds"
         type="number"
         validate={validateProductDuration}
+      />
+      
+      <UploadComponent
+        type="file"
+        model="products"
+        default="data.summary.file"
+        showtext="mp4"
       />
 
       {/* <UploadComponent
