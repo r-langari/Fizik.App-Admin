@@ -41,7 +41,7 @@ export default () => (
         <Card>
             <CardHeader title="Online Users Chart" />
             <CardContent>
-                <OnlineUsersChart />
+                {/* <OnlineUsersChart /> */}
                 <NumberOfOnlineUsers />
             </CardContent>
         </Card>
