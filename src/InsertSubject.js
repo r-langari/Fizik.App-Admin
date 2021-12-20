@@ -23,7 +23,7 @@ export default class InsertSubject extends React.Component {
         for (i = 0; i < list.length; i += 1) {
             node = list[i];
             if (node.parentId !== "0") {
-                // if you have dangling branches check that map[node.parentId] exists
+                //  if you have dangling branches check that map[node.parentId] exists
                 if (map[node.parentId]) {
                 list[map[node.parentId]].children.push(node);
                 }
